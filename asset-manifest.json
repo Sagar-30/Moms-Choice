@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sagar-30/Moms-Choice/static/css/main.7de64012.css",
+    "main.js": "/Sagar-30/Moms-Choice/static/js/main.28320f17.js",
+    "static/media/bootstrap-icons.woff?": "/Sagar-30/Moms-Choice/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/Sagar-30/Moms-Choice/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "index.html": "/Sagar-30/Moms-Choice/index.html",
+    "main.7de64012.css.map": "/Sagar-30/Moms-Choice/static/css/main.7de64012.css.map",
+    "main.28320f17.js.map": "/Sagar-30/Moms-Choice/static/js/main.28320f17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7de64012.css",
+    "static/js/main.28320f17.js"
+  ]
+}
