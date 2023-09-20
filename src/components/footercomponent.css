@@ -1,0 +1,24 @@
+.Main-footer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    background-image: linear-gradient(to top, lightpink, transparent);
+    padding-top:2vh;
+    margin-top:2vh;
+    color:black;
+}
+.footer-img-section img{
+    height:6rem;
+}
+.footer-contact-section p{
+    padding:.3rem;
+}
+.iconsall{
+    padding: 0 2vw;
+}
+@media screen and (max-width:360px) {
+    .Main-footer{
+        display:grid;
+        text-align:left;
+}
+}

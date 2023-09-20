@@ -1,0 +1,74 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main-section-top {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.Main-section-top img {
+    height: 20vh;
+    width: 85%;
+    border: 1px solid black;
+
+}
+
+.fullCard {
+    padding-top: .1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Main-Card {
+    width: 30vw;
+    background-color: lightgrey;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+}
+
+.main-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.Main-Card h1 {
+    padding: .3rem;
+}
+
+.Main-Card p {
+    padding: .3rem;
+    font-weight:650;
+}
+
+.Carousel-main{
+    background: rgba(255, 255, 255, 1);
+    /* backdrop-filter: blur(10px); */
+    position:fixed;
+    top:10vh;
+    left:5vw;
+    height:70vh;
+    width:90vw;
+    display:none;
+}
+.Cut-button{
+position:absolute;
+top:0;
+right:0;
+color:lightpink;
+font-size: 2rem;
+}
+.Carousel-main img{
+    height:60vh;
+    width:90vw;
+    padding: 2rem 0;
+}
+@media screen and (max-width:600px) {
+    .Main-Card {
+        width: 80vw;
+    }
+}

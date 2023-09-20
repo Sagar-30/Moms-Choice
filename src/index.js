@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css'
+import Header from './components/headercomponent.jsx'
+import Navbar from './components/navbarcomponent.jsx'
+import Mainbody from './components/maincomponent.jsx'
+import Footer from './components/footercomponent.jsx'
+import CarouselMain from './components/carouselcomponent.jsx'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <Header />
+    <Navbar />
+    <Mainbody />
+    <Footer />
+     
+  </React.StrictMode>,
+)

@@ -1,0 +1,7 @@
+Product  = [
+    {"id":1,"price":"500","name":"pink chanyacholi","img":['/test.png','/test1.png']},
+        {"id":2,"price":"500","name":"pink chanyacholi","img":['/test.png','/test1.png']},
+            {"id":3,"price":"500","name":"pink chanyacholi","img":['/test.png','/test1.png']},
+                {"id":5,"price":"500","name":"pink chanyacholi","img":['/test.png','/test1.png']},
+                    {"id":6,"price":"500","name":"pink chanyacholi","img":['/test.png','/test1.png']}
+]

@@ -1,0 +1,37 @@
+.Headerdiv{
+    background-color:lightgrey;
+    color:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:6vh;
+    font-family:cursive;
+}
+.Headerdiv p{
+    line-height:1.5rem;
+    font-size:1rem;
+    padding:0 2rem;
+}
+.headerHr{
+border:1px solid pink;
+}
+
+@media screen and (max-width:600px) {
+    .Headerdiv{
+    height:6vh;
+    }
+    .Headerdiv p{
+        
+    line-height:1.5rem;
+    font-size:1rem;
+    padding:0 2rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .Headerdiv p{
+        line-height:1rem;
+        font-size:.9rem;
+        padding:0 .2rem;
+    }
+}
